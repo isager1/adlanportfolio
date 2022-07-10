@@ -35,7 +35,7 @@ const Header = () => {
         <div>
             <div className="headerContainer">
                 <div className="iconsBlock">
-                    <h1> WEBACADEMIE BY EPITECH </h1>
+                    <h1> WEBACADEMIE <span>BY EPITECH</span>  </h1>
                     <h2> Recherche un contrat en alternance </h2>
 
                     <div className="myInfo">

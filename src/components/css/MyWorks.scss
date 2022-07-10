@@ -130,3 +130,28 @@
         }
     }
 }
+
+@media screen and (max-width: 428px) {
+
+    .worksCont {
+        margin: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: c;
+        .worksCard {
+            .card {
+                width: 300px;
+
+                img {
+                    width: 300px;
+                    height: 200px;
+                }
+
+                .cardInfo {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}

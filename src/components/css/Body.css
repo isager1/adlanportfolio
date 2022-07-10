@@ -558,4 +558,9 @@
     display: flex;
     flex-direction: column;
   }
+}
+@media screen and (max-width: 428px) {
+  .aboutCont {
+    margin: 1px;
+  }
 }/*# sourceMappingURL=Body.css.map */
