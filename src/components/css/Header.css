@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+.headerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vh;
+  background: linear-gradient(to right, #FEDBD0 79.2%, #FEEAE6 79.2%);
+}
+.headerContainer .iconsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 50px;
+  border-radius: 10px;
+}
+.headerContainer .iconsBlock .myInfo {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+.headerContainer .iconsBlock .myInfo .linkDin {
+  font-size: 2.5em;
+  margin: 10px;
+  color: #442C2E;
+  width: 25%;
+  cursor: pointer;
+}
+.headerContainer .iconsBlock .myInfo .linkDin:hover {
+  color: rgba(0, 102, 255, 0.884);
+}
+.headerContainer .iconsBlock .myInfo .gitHub {
+  font-size: 2.5em;
+  margin: 10px;
+  color: #442C2E;
+  width: 25%;
+  cursor: pointer;
+}
+.headerContainer .iconsBlock .myInfo .gitHub:hover {
+  color: rgba(0, 0, 0, 0.884);
+}
+.headerContainer .iconsBlock p {
+  margin-left: 130px;
+  margin-top: -20px;
+  font-size: 0.8em;
+}
+.headerContainer .iconsBlock h1 {
+  color: #442C2E;
+}
+.headerContainer .iconsBlock h2 {
+  color: #442C2E;
+}
+.headerContainer .iconsBlock .btns {
+  display: flex;
+  margin-top: 100px;
+}
+.headerContainer .iconsBlock .btns .btn {
+  background-color: #FEEAE6;
+  border: none;
+  color: #442C2E;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+.headerContainer .iconsBlock .btns .btn::before, .headerContainer .iconsBlock .btns .btn::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+.headerContainer .iconsBlock .btns .btn::before {
+  border-top: 1px solid #263059;
+  right: 0;
+  top: -4px;
+}
+.headerContainer .iconsBlock .btns .btn::after {
+  border-bottom: 1px solid #263059;
+  bottom: -4px;
+  left: 0;
+}
+.headerContainer .iconsBlock .btns .btn:hover::before, .headerContainer .iconsBlock .btns .btn:hover::after {
+  width: 100%;
+}
+.headerContainer .allInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.headerContainer .allInfo .infoBlock {
+  background-color: #FEEAE6;
+  height: 360px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #442C2E;
+  border-left: 1px solid #442C2E;
+  border-top: 1px solid #442C2E;
+}
+.headerContainer .allInfo .infoBlock .bonjBienv {
+  font-family: "Parisienne", cursive;
+  margin-bottom: -10px;
+}
+.headerContainer .allInfo .infoBlock h3 {
+  font-family: "Parisienne", cursive;
+  margin-bottom: -10px;
+}
+.headerContainer .allInfo img {
+  height: 360px;
+  width: 358px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  border-bottom: 1px solid #442C2E;
+  border-top: 1px solid #442C2E;
+  border-right: 1px solid #442C2E;
+}
+
+@media screen and (max-width: 1765px) {
+  .headerContainer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    background: linear-gradient(to right, #FEDBD0 100%, rgb(255, 255, 255) 100%);
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 912px) {
+  .allInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .allInfo img {
+    width: 400px;
+    border-left: 1px solid #442C2E;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 6px 10px 0 gray;
+  }
+  .allInfo .infoBlock {
+    border-right: 1px solid #442C2E;
+    width: 300px;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 618px) {
+  .allInfo img {
+    width: 300px;
+  }
+  .allInfo .infoBlock {
+    width: 100px;
+  }
+}/*# sourceMappingURL=Header.css.map */

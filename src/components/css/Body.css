@@ -1,0 +1,561 @@
+.aboutCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: rgba(248, 212, 201, 0.5411764706);
+  margin: 5vh;
+}
+.aboutCont .schoolCont {
+  display: flex;
+  flex-direction: column;
+}
+.aboutCont .schoolCont h4 {
+  text-align: center;
+  margin-bottom: -20px;
+}
+.aboutCont .schoolCont h6 {
+  color: #836e5a;
+}
+.aboutCont .schoolCont .wac .years {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px;
+}
+.aboutCont .schoolCont .wac .years p {
+  font-size: 0.8em;
+  padding: 5px;
+}
+.aboutCont .schoolCont .wac .timeRate {
+  height: 10px;
+  border-bottom: 1px solid #442C2E;
+  border-right: 1px solid #442C2E;
+  border-left: 1px solid #442C2E;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .schoolCont .wac .timeRate::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .schoolCont .wac .timeRate:hover::after {
+  width: 40%;
+}
+.aboutCont .schoolCont .open .years {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px;
+}
+.aboutCont .schoolCont .open .years p {
+  font-size: 0.8em;
+  padding: 5px;
+}
+.aboutCont .schoolCont .open .timeRate {
+  height: 10px;
+  border-bottom: 1px solid #442C2E;
+  border-right: 1px solid #442C2E;
+  border-left: 1px solid #442C2E;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .schoolCont .open .timeRate::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .schoolCont .open .timeRate:hover::after {
+  width: 100%;
+}
+.aboutCont .schoolCont .iesc .years {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px;
+}
+.aboutCont .schoolCont .iesc .years p {
+  font-size: 0.8em;
+  padding: 5px;
+}
+.aboutCont .schoolCont .iesc .timeRate {
+  height: 10px;
+  border-bottom: 1px solid #442C2E;
+  border-right: 1px solid #442C2E;
+  border-left: 1px solid #442C2E;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .schoolCont .iesc .timeRate::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .schoolCont .iesc .timeRate:hover::after {
+  width: 100%;
+}
+.aboutCont h1 {
+  text-align: center;
+}
+.aboutCont .iconsCont {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.aboutCont .iconsCont h4 {
+  color: #442C2E;
+  text-align: center;
+}
+.aboutCont .iconsCont .icons {
+  display: flex;
+  align-items: center;
+}
+.aboutCont .iconsCont .icons .langProgram {
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+}
+.aboutCont .iconsCont .icons .langProgram .dev-btn {
+  font-size: 2.05em;
+  display: flex;
+  flex-direction: column;
+}
+.aboutCont .iconsCont .icons .langProgram::before, .aboutCont .iconsCont .icons .langProgram::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+.aboutCont .iconsCont .icons .langProgram::before {
+  border-top: 1px solid #263059;
+  right: 0;
+  top: -4px;
+}
+.aboutCont .iconsCont .icons .langProgram::after {
+  border-bottom: 1px solid #263059;
+  bottom: -4px;
+  left: 0;
+}
+.aboutCont .iconsCont .icons .langProgram:hover::before, .aboutCont .iconsCont .icons .langProgram:hover::after {
+  width: 100%;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore {
+  display: flex;
+  align-items: center;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .js-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .js-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .js-skill:hover::after {
+  width: 80%;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .php-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .php-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .php-skill:hover::after {
+  width: 50%;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .data-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .data-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .data-skill:hover::after {
+  width: 85%;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .html-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .html-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .html-skill:hover::after {
+  width: 95%;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .css-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .css-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .css-skill:hover::after {
+  width: 95%;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .js {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .skillScore .js:hover {
+  transform: scale(1.2);
+  color: rgb(179, 179, 49);
+}
+.aboutCont .iconsCont .icons .langProgram .php {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .php:hover {
+  transform: scale(1.2);
+  color: rgb(15, 24, 153);
+}
+.aboutCont .iconsCont .icons .langProgram .database {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .database:hover {
+  transform: scale(1.2);
+  color: rgb(124, 131, 230);
+}
+.aboutCont .iconsCont .icons .langProgram .html5 {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .html5:hover {
+  transform: scale(1.2);
+  color: rgb(240, 124, 16);
+}
+.aboutCont .iconsCont .icons .langProgram .css3 {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .langProgram .css3:hover {
+  transform: scale(1.2);
+  color: rgb(105, 114, 236);
+}
+.aboutCont .iconsCont .icons .fraemworks {
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+}
+.aboutCont .iconsCont .icons .fraemworks .dev-btn {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore {
+  display: flex;
+  align-items: center;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .react-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .react-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .react-skill:hover::after {
+  width: 85%;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .sass-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .sass-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .sass-skill:hover::after {
+  width: 95%;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .laravel-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .laravel-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .laravel-skill:hover::after {
+  width: 95%;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .symfony-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .symfony-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .symfony-skill:hover::after {
+  width: 60%;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .ad-skill {
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+  width: 200px;
+  height: 10px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .ad-skill::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0;
+  height: 10px;
+  background: rgba(28, 124, 131, 0.6156862745);
+  display: block;
+  content: "";
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .ad-skill:hover::after {
+  width: 95%;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .js {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .skillScore .js:hover {
+  transform: scale(1.2);
+  color: rgb(179, 179, 49);
+}
+.aboutCont .iconsCont .icons .fraemworks::before, .aboutCont .iconsCont .icons .fraemworks::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+.aboutCont .iconsCont .icons .fraemworks::before {
+  border-top: 1px solid #263059;
+  right: 0;
+  top: -4px;
+}
+.aboutCont .iconsCont .icons .fraemworks::after {
+  border-bottom: 1px solid #263059;
+  bottom: -4px;
+  left: 0;
+}
+.aboutCont .iconsCont .icons .fraemworks:hover::before, .aboutCont .iconsCont .icons .fraemworks:hover::after {
+  width: 100%;
+}
+.aboutCont .iconsCont .icons .fraemworks .react {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .react:hover {
+  transform: scale(1.2);
+  color: rgb(68, 176, 219);
+}
+.aboutCont .iconsCont .icons .fraemworks .sass {
+  font-size: 2.2em;
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .sass:hover {
+  transform: scale(1.2);
+  color: violet;
+}
+.aboutCont .iconsCont .icons .fraemworks .laravel {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .laravel:hover {
+  color: orangered;
+  transform: scale(1.2);
+}
+.aboutCont .iconsCont .icons .fraemworks .symfony {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .symfony:hover {
+  transform: scale(1.2);
+  color: black;
+}
+.aboutCont .iconsCont .icons .fraemworks .ad {
+  margin: 10px;
+  color: #442C2E;
+  cursor: pointer;
+}
+.aboutCont .iconsCont .icons .fraemworks .ad:hover {
+  transform: scale(1.2);
+  color: rgb(38, 114, 214);
+}
+.aboutCont .myInfo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.aboutCont .myInfo h5 {
+  color: #aa9582;
+}
+.aboutCont .myInfo .hobbies .hobIcon {
+  display: flex;
+}
+.aboutCont .myInfo .hobbies .hobIcon .hob {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 1600px) {
+  .aboutCont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutCont .icons {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Body.css.map */

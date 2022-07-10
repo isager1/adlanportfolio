@@ -1,0 +1,99 @@
+.contMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8d4c98a;
+    margin: 5vh;
+    padding: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 500px;
+}
+
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+}
+
+#message {
+    width: 370px;
+    height: 150px;
+    margin: 10px;
+}
+
+.btnContact {
+    width: 375px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgba(240, 206, 161, 0.849);
+    color: rgb(83, 55, 37);
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(238, 192, 133);
+}
+
+
+@media screen and (max-width: 740px) {
+
+    form {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    form {
+        width: 300px;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    #message {
+        width: 270px;
+    }
+
+    .btnContact {
+        width: 270px;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    form {
+        width: 200px;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    #message {
+        width: 170px;
+    }
+
+    .btnContact {
+        width: 170px;
+    }
+
+}
+
+

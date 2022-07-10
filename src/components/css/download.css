@@ -1,0 +1,11 @@
+.download {
+    font-size: 2.2em;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.download:hover {
+    color: rgba(165, 97, 51, 0.884);
+}

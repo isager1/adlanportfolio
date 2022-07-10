@@ -1,0 +1,88 @@
+.worksCont {
+  background-color: #FEDBD0;
+  margin: 5vh;
+}
+.worksCont h1 {
+  text-align: center;
+  margin: 10;
+  padding: 20px;
+}
+.worksCont .worksCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.worksCont .worksCard .card {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 516px;
+  background-color: #FEEAE6;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.worksCont .worksCard .card:hover {
+  box-shadow: 0 3px 6px 0 gray;
+}
+.worksCont .worksCard .card .cardInfo {
+  width: 516px;
+}
+.worksCont .worksCard .card .cardInfo h2 {
+  text-align: center;
+}
+.worksCont .worksCard .card .cardInfo p {
+  font-size: 0.9em;
+  text-align: start;
+  margin: 10px;
+}
+.worksCont .worksCard .card img {
+  height: 250px;
+  width: 516px;
+  filter: grayscale(90%);
+  border-radius: 10px 10px 0 0;
+}
+.worksCont .worksCard .card img:hover {
+  filter: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .worksCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 785px) {
+  .worksCont .worksCard .card {
+    width: 400px;
+  }
+  .worksCont .worksCard .card img {
+    width: 400px;
+  }
+  .worksCont .worksCard .card .cardInfo {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 616px) {
+  .worksCont .worksCard .card {
+    width: 300px;
+  }
+  .worksCont .worksCard .card img {
+    width: 300px;
+  }
+  .worksCont .worksCard .card .cardInfo {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .worksCont .worksCard .card {
+    width: 200px;
+  }
+  .worksCont .worksCard .card img {
+    width: 200px;
+  }
+  .worksCont .worksCard .card .cardInfo {
+    width: 200px;
+  }
+}/*# sourceMappingURL=MyWorks.css.map */

@@ -1,0 +1,702 @@
+.aboutCont {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #f8d4c98a;
+    margin: 5vh;
+
+    .schoolCont {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            text-align: center;
+            margin-bottom: -20px;
+        }
+
+        h6 {
+            color: #836e5a;
+        }
+
+
+        .wac {
+
+            .years {
+                display: flex;
+                justify-content: space-between;
+                margin: -15px;
+
+                p {
+                    font-size: 0.8em;
+                    padding: 5px;
+                }
+            }
+
+            .timeRate {
+                height: 10px;
+                border-bottom: 1px solid #442C2E;
+                border-right: 1px solid #442C2E;
+                border-left: 1px solid #442C2E;
+                z-index: 3;
+                position: relative;
+                cursor: pointer;
+
+
+                &::after {
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 0;
+                    height: 10px;
+                    background: #1c7c839d;
+                    display: block;
+                    content: '';
+                    z-index: 1;
+                    transition: width 0.5s ease-in-out;
+                }
+
+                &:hover::after {
+                    width: 40%;
+                }
+            }
+        }
+
+        .open {
+
+            .years {
+                display: flex;
+                justify-content: space-between;
+                margin: -15px;
+
+                p {
+                    font-size: 0.8em;
+                    padding: 5px;
+                }
+            }
+
+            .timeRate {
+                height: 10px;
+                border-bottom: 1px solid #442C2E;
+                border-right: 1px solid #442C2E;
+                border-left: 1px solid #442C2E;
+                z-index: 3;
+                position: relative;
+                cursor: pointer;
+
+
+                &::after {
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 0;
+                    height: 10px;
+                    background: #1c7c839d;
+                    display: block;
+                    content: '';
+                    z-index: 1;
+                    transition: width 0.5s ease-in-out;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+
+        .iesc {
+
+            .years {
+                display: flex;
+                justify-content: space-between;
+                margin: -15px;
+
+                p {
+                    font-size: 0.8em;
+                    padding: 5px;
+                }
+            }
+
+            .timeRate {
+                height: 10px;
+                border-bottom: 1px solid #442C2E;
+                border-right: 1px solid #442C2E;
+                border-left: 1px solid #442C2E;
+                z-index: 3;
+                position: relative;
+                cursor: pointer;
+
+
+                &::after {
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 0;
+                    height: 10px;
+                    background: #1c7c839d;
+                    display: block;
+                    content: '';
+                    z-index: 1;
+                    transition: width 0.5s ease-in-out;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .iconsCont {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+
+
+        h4 {
+            color: #442C2E;
+            text-align: center;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+
+            .langProgram {
+                outline: none;
+                padding: 12px 40px 10px;
+                position: relative;
+
+                .dev-btn {
+                    font-size: 2.05em;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+
+                &::before,
+                &::after {
+                    border: 0 solid transparent;
+                    transition: all 0.3s;
+                    content: '';
+                    height: 0;
+                    position: absolute;
+                    width: 24px;
+                }
+
+                &::before {
+                    border-top: 1px solid #263059;
+                    right: 0;
+                    top: -4px;
+                }
+
+                &::after {
+                    border-bottom: 1px solid #263059;
+                    bottom: -4px;
+                    left: 0;
+                }
+
+                &:hover::before,
+                &:hover::after {
+                    width: 100%;
+
+                }
+
+                .skillScore {
+                    display: flex;
+                    align-items: center;
+
+
+
+                    .js-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 80%;
+                        }
+                    }
+
+                    .php-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 50%;
+                        }
+                    }
+
+                    .data-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 85%;
+                        }
+                    }
+
+                    .html-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 95%;
+                        }
+                    }
+
+                    .css-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 95%;
+                        }
+                    }
+
+
+                    .js {
+                        margin: 10px;
+                        color: #442C2E;
+                        cursor: pointer;
+
+                        &:hover {
+                            transform: scale(1.2);
+                            color: rgb(179, 179, 49);
+                        }
+                    }
+                }
+
+
+                .php {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: rgb(15, 24, 153);
+                    }
+                }
+
+                .database {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: rgb(124, 131, 230);
+                    }
+                }
+
+                .html5 {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: rgb(240, 124, 16);
+                    }
+                }
+
+                .css3 {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: rgb(105, 114, 236);
+                    }
+                }
+            }
+
+            .fraemworks {
+                outline: none;
+                padding: 12px 40px 10px;
+                position: relative;
+
+                .dev-btn {
+                    font-size: 2em;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+
+                .skillScore {
+                    display: flex;
+                    align-items: center;
+
+                    .react-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 85%;
+                        }
+                    }
+
+                    .sass-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 95%;
+                        }
+                    }
+
+                    .laravel-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 95%;
+                        }
+                    }
+
+                    .symfony-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 60%;
+                        }
+                    }
+
+                    .ad-skill {
+                        background: linear-gradient(to right, rgba(34, 34, 34, 0.13) 100%, rgb(255, 255, 255) 100%);
+                        width: 200px;
+                        height: 10px;
+                        z-index: 3;
+                        position: relative;
+                        cursor: pointer;
+
+
+                        &::after {
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            width: 0;
+                            height: 10px;
+                            background: #1c7c839d;
+                            display: block;
+                            content: '';
+                            z-index: 1;
+                            transition: width 0.5s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            width: 95%;
+                        }
+                    }
+
+
+                    .js {
+                        margin: 10px;
+                        color: #442C2E;
+                        cursor: pointer;
+
+                        &:hover {
+                            transform: scale(1.2);
+                            color: rgb(179, 179, 49);
+                        }
+                    }
+                }
+
+
+                &::before,
+                &::after {
+                    border: 0 solid transparent;
+                    transition: all 0.3s;
+                    content: '';
+                    height: 0;
+                    position: absolute;
+                    width: 24px;
+                }
+
+                &::before {
+                    border-top: 1px solid #263059;
+                    right: 0;
+                    top: -4px;
+                }
+
+                &::after {
+                    border-bottom: 1px solid #263059;
+                    bottom: -4px;
+                    left: 0;
+                }
+
+                &:hover::before,
+                &:hover::after {
+                    width: 100%;
+
+                }
+
+                .react {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: rgb(68, 176, 219);
+                    }
+                }
+
+                .sass {
+                    font-size: 2.2em;
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: violet;
+                    }
+                }
+
+                .laravel {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: orangered;
+                        transform: scale(1.2);
+                    }
+                }
+
+                .symfony {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: black;
+                    }
+                }
+
+                .ad {
+                    margin: 10px;
+                    color: #442C2E;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        color: rgb(38, 114, 214);
+                    }
+                }
+            }
+        }
+    }
+
+    .myInfo {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+        h5 {
+            color: #aa9582;
+        }
+
+        .hobbies {
+
+
+            .hobIcon {
+                display: flex;
+
+
+                .hob {
+                    font-size: 2em;
+                }
+            }
+
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    .aboutCont {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .icons {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

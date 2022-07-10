@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+}
+/* 
+.flachDown {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: rgb(77, 47, 13);
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.flachDown:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+
+  .flachUp {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: rgb(77, 47, 13);
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(225deg);
+    transition: border-width 150ms ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.flachUp:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  } */
